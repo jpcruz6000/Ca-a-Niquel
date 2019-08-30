@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+        <title>SlotMachine2</title>
+    </head>
+	
+    <body>
+        <div id = "frame">
+		<div id="jackpot">JackPot!</div>
+			<h1 id = "msg">Welcome!</h1>
+			<h2 id="cred">Insira Créditos!</h2>
+			<div id="outline">
+				<div id = "box"><img id = "myimg0" src="img/bar.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg1" src="img/seven.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg2" src="img/spade.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg3" src="img/star.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg4" src="img/aple.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg5" src="img/bell.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg6" src="img/jota.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg7" src="img/queen.svg" width="100" height="100"></div>
+				<div id = "box"><img id = "myimg8" src="img/king.svg" width="100" height="100"></div>
+			</div>
+			<button id = "btn" type="button" onclick="testa()">Girar!</button>
+			<div id="outline">
+				<div id = "box">
+        		<img id = "Premio" src="img/king.svg" width="100" height="100">
+        		<p>SIMBOLO DA SORTE!</p>
+        		</div>
+			</div>
+			<audio loop id="aud" src="sound/THROWING KNIFE HITMARKER.mp3"></audio>
+			<audio id="audgm" src="sound/BOOM SWOOSH.mp3"></audio>
+			<audio id="audcoin" src="sound/DING.mp3"></audio>
+			<audio id="audwin" src="sound/VICTORY.mp3"></audio>
+			<audio loop id="audmain" src="sound/BOXING GLOVES BY JULIO KLADNIEW.mp3"></audio>		
+        </div>       
+		<div id = "footer">
+			<button id="coin"  type="button" onclick="coinPay(20)">$5$</button>
+			<button id="coin" type="button" onclick="coinPay(50)">$10$</button>
+			<button id="coin" type="button" onclick="coinPay(150)">$25$</button>
+			<p>20 cred - 50 cred - 150 cred</p>
+		</div>
+		
+		<script src="js/script.js"></script>
+    </body>
+</html>
