@@ -1,0 +1,80 @@
+@font-face {
+font-family: 'Luckiest Guy';
+}
+*{
+font-family: 'Luckiest Guy', cursive;
+}
+body{
+margin: 0;
+padding: 0;
+}
+div {
+display: flex;
+margin-left: 1px;
+flex-wrap: wrap;
+//background-color: blue;
+justify-content: center;
+}
+#frame{
+background-image: linear-gradient(pink, lightyellow, skyblue);
+}
+#box {
+background-color: AliceBlue;
+//height: 10%;
+width: 33%;
+box-shadow: 5px 10px 10px #888888;
+}
+#outline{
+border: 20px solid;
+-webkit-border-image: url(../img/border.svg) 30 stretch; /* Safari 3.1-5 */
+-o-border-image: url(../img/border.svg) 30 stretch; /* Opera 11-12.1 */
+border-image: url(../img/border.svg) 30 stretch;
+width: 90%;
+}
+img {
+max-width: 100%;
+}
+button {
+background-color: red;
+color: white;
+font-size: 32px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1 {
+width: 100%;
+margin: 0;
+text-align: center;
+color: yellow;
+text-shadow: 0 0 3px red, 0 0 6px blue;
+}
+h2 {
+width: 100%;
+text-align: center;
+color: yellow;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#coin {
+background-color: gold;
+text-shadow: 0 0 3px red, 0 0 6px blue;
+}
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+p {
+text-align: center;
+width: 100%;
+background-color: gold;
+color: AliceBlue;
+text-shadow: 0 0 3px red, 0 0 6px blue;
+margin: 0;
+padding: 0;
+}
+#jackpot {
+color: blue;
+text-shadow: 0 0 3px white, 0 0 6px yellow;
+font-size: 32px;
+width: 100%;
+}
